@@ -1,0 +1,33 @@
+.body {
+} 
+
+.screenshots {
+    width: 20%;
+    height: 15%;
+    
+}
+
+.distro-logos {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px;
+   
+}
+
+.distro-logos li a {
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.distro-logos li a {
+    width: 50px;
+}
+
+
+
+
+
