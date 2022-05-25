@@ -21,6 +21,8 @@
     margin-left: 150px;
 }
 
+
+
     
   
 
@@ -58,7 +60,7 @@
     flex-direction: row;
     float: none;
     margin-left: 30%;
-    top: 160px;
+    top: 110px;
     justify-content: space-around;
     list-style-type: none;
     color:white;
@@ -67,7 +69,40 @@
 
 }
 
-..screenshot .screenshot-zoom {
+.badge-new {
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    color:  black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1200px;
+    top: 500px;     
+    float: none;
+   
+}
+
+.badge-date {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.badge-version {
+    display: flex;
+    font-size: 22px;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 1370px;
+    top: 495px;
+    position: absolute;
+    
+    float: none;
+
+}
+
+.screenshot .screenshot-zoom {
     width: 30%;
     display: flex;
     flex-direction: column;
