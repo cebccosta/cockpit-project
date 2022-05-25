@@ -1,12 +1,14 @@
 .body {
-    font-family: 'robotto', sans-serif;
-    
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+   
 }
 
 #fundo {
     
     position: relative;
     width: 2000px;
+    height: 300px;
     max-width: 100%;
     top: 1px;
   
@@ -44,12 +46,13 @@
     text-decoration: none;
     font-size: 20px;
     color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     justify-content: space-between;
     
 }
 
 .nav-menu li a:hover {
-    color:crimson;
+    color: darkblue;
 }
 
 .intro-lede {
@@ -59,57 +62,47 @@
     position: absolute;
     flex-direction: row;
     float: none;
-    margin-left: 30%;
+    margin-left: 35%;
     top: 110px;
     justify-content: space-around;
     list-style-type: none;
     color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 30px;
     font-weight: bold;
 
 }
 
-.badge-new {
-    display: flex;
-    position: absolute;
-    list-style-type: none;
-    color:  black;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 1200px;
-    top: 500px;     
-    float: none;
-   
-}
-
-.badge-date {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
 .badge-version {
-    display: flex;
+    position:absolute;
+    
     font-size: 22px;
     text-decoration: none;
     list-style-type: none;
     font-weight: bold;
-    margin-left: 1370px;
-    top: 495px;
-    position: absolute;
-    
+    margin-left: 1000px;
+    top: 290px;          
+   
+
+}
+
+.badge-new {
+   position: absolute;
+    list-style-type: none;
+    color:  black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 840px;
     float: none;
-
+    top: 295px;
+   
+   
 }
 
-.screenshot .screenshot-zoom {
-    width: 30%;
+.tela1 {
     display: flex;
-    flex-direction: column;
-    
+    width: 10%;
 }
-
-
 
 
 
