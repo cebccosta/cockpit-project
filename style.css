@@ -1,6 +1,7 @@
 .body {
     font-family: 'Inter', sans-serif;
-    margin: 0;
+   
+
    
 }
 
@@ -80,7 +81,7 @@
     text-decoration: none;
     list-style-type: none;
     font-weight: bold;
-    margin-left: 1000px;
+    margin-left: 1500px;
     top: 290px;          
    
 
@@ -92,21 +93,34 @@
     color:  black;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 840px;
+    margin-left: 1340px;
     float: none;
     top: 295px;
    
    
 }
 
-.tela1 {
-    display: flex;
-    width: 10%;
+#page-wrap {
+    position: relative;
+    width: 100%;
+   text-align:center;
+   overflow: hidden;
+   
 }
 
+.audience-list {
+    position: absolute;
+     width: 100%;
+    
+    text-align: justify;
+    top:  30px;
 
+}
 
+#take-a-look {
+    position: relative;
+    width: 50%;
+   text-align:center;
+   top: 30px;
 
-
-
-
+}
